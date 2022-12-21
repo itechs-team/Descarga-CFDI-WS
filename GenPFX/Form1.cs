@@ -33,7 +33,7 @@ namespace GenPFX
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Eror al generar el archivo llave.", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Error al generar el archivo llave.", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
