@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Peticiones>
+  <Peticion id="4dbc21dc-636e-4c1e-8bf6-d1ea17b34fa4" descargada="1" tipo="Metadata_Recibidas" fechaInicial="2022-12-01" HoraInicial="00:00:00" fechaFinal="2022-12-02" HoraFinal="23:59:59" ClaveLote="20221214" estadoSolicitud="Descarga exitosa" />
+  <Peticion id="f66e891b-fe1a-4fb4-99d6-b6982c822cf8" descargada="1" tipo="Metadata_Recibidas" fechaInicial="2022-12-01" HoraInicial="00:00:00" fechaFinal="2022-12-12" HoraFinal="23:59:59" ClaveLote="20221213" estadoSolicitud="Descarga exitosa" />
+</Peticiones>

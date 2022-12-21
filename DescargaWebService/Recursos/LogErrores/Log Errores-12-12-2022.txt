@@ -1,0 +1,212 @@
+
+Ejecutando Descarga 10:47:35..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+No hay Paquetes pendientes de Descargar, RFC: DPA060116FH3
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Descarga 13:18:06..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+No hay Paquetes pendientes de Descargar, RFC: DPA060116FH3
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Peticiones 14:02:37..........................................................................................................
+Archivo PFX del RFC: CAN830210LE8 NO ENCONTRADO
+Archivo PFX del RFC: FDV030109CS3 NO ENCONTRADO
+Archivo PFX del RFC: LDG0102073C5 NO ENCONTRADO
+Archivo PFX del RFC: MGA080922FP0 NO ENCONTRADO
+Archivo PFX del RFC: PUL860409I9A NO ENCONTRADO
+Archivo PFX del RFC: DCA040909263 NO ENCONTRADO
+DPA060116FH3: Iniciando Peticiones
+Peticiones del RFC DPA060116FH3 Terminadas
+Archivo PFX del RFC: DIM140806MM9 NO ENCONTRADO
+Archivo PFX del RFC: DIM150824B26 NO ENCONTRADO
+Archivo PFX del RFC: RAR930331RF0 NO ENCONTRADO
+Iniciando Timer para verificar los paquetes a descargar
+
+Ejecutando Descarga 14:08:14..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: 3de929ea-7fd2-41b9-a6fa-614d7c4415a1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 47b0aeb4-47cf-4ca6-a2c9-94172f4923ea >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: afceb740-26db-421b-a89f-f83192b8e8e1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: adaf6551-c2a7-47e7-bde1-c361d6fb0ac9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Descarga 14:15:36..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: 3de929ea-7fd2-41b9-a6fa-614d7c4415a1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 47b0aeb4-47cf-4ca6-a2c9-94172f4923ea >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: afceb740-26db-421b-a89f-f83192b8e8e1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: adaf6551-c2a7-47e7-bde1-c361d6fb0ac9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Descarga 14:15:56..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: 3de929ea-7fd2-41b9-a6fa-614d7c4415a1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 47b0aeb4-47cf-4ca6-a2c9-94172f4923ea >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: afceb740-26db-421b-a89f-f83192b8e8e1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: adaf6551-c2a7-47e7-bde1-c361d6fb0ac9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Descarga 14:23:39..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: 3de929ea-7fd2-41b9-a6fa-614d7c4415a1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 47b0aeb4-47cf-4ca6-a2c9-94172f4923ea >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: afceb740-26db-421b-a89f-f83192b8e8e1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: adaf6551-c2a7-47e7-bde1-c361d6fb0ac9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Descarga 14:28:47..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: 3de929ea-7fd2-41b9-a6fa-614d7c4415a1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 47b0aeb4-47cf-4ca6-a2c9-94172f4923ea >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: afceb740-26db-421b-a89f-f83192b8e8e1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: adaf6551-c2a7-47e7-bde1-c361d6fb0ac9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Descarga 14:33:52..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: 3de929ea-7fd2-41b9-a6fa-614d7c4415a1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 47b0aeb4-47cf-4ca6-a2c9-94172f4923ea >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: afceb740-26db-421b-a89f-f83192b8e8e1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: adaf6551-c2a7-47e7-bde1-c361d6fb0ac9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Descarga 14:39:01..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: 3de929ea-7fd2-41b9-a6fa-614d7c4415a1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 47b0aeb4-47cf-4ca6-a2c9-94172f4923ea >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: afceb740-26db-421b-a89f-f83192b8e8e1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: adaf6551-c2a7-47e7-bde1-c361d6fb0ac9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Descarga 14:44:05..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: 3de929ea-7fd2-41b9-a6fa-614d7c4415a1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 47b0aeb4-47cf-4ca6-a2c9-94172f4923ea >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: afceb740-26db-421b-a89f-f83192b8e8e1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: adaf6551-c2a7-47e7-bde1-c361d6fb0ac9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Descarga 14:49:10..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: 3de929ea-7fd2-41b9-a6fa-614d7c4415a1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 47b0aeb4-47cf-4ca6-a2c9-94172f4923ea >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: afceb740-26db-421b-a89f-f83192b8e8e1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: adaf6551-c2a7-47e7-bde1-c361d6fb0ac9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Descarga 14:54:13..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: 3de929ea-7fd2-41b9-a6fa-614d7c4415a1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 47b0aeb4-47cf-4ca6-a2c9-94172f4923ea >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: afceb740-26db-421b-a89f-f83192b8e8e1 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: adaf6551-c2a7-47e7-bde1-c361d6fb0ac9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO

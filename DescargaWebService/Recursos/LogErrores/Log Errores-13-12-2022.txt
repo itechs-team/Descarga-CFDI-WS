@@ -1,0 +1,14 @@
+
+Ejecutando Peticiones 17:25:26..........................................................................................................
+Archivo PFX del RFC: CAN830210LE8 NO ENCONTRADO
+Archivo PFX del RFC: FDV030109CS3 NO ENCONTRADO
+Archivo PFX del RFC: LDG0102073C5 NO ENCONTRADO
+Archivo PFX del RFC: MGA080922FP0 NO ENCONTRADO
+Archivo PFX del RFC: PUL860409I9A NO ENCONTRADO
+Archivo PFX del RFC: DCA040909263 NO ENCONTRADO
+DPA060116FH3: Iniciando Peticiones
+Peticiones del RFC DPA060116FH3 Terminadas
+Archivo PFX del RFC: DIM140806MM9 NO ENCONTRADO
+Archivo PFX del RFC: DIM150824B26 NO ENCONTRADO
+Archivo PFX del RFC: RAR930331RF0 NO ENCONTRADO
+Iniciando Timer para verificar los paquetes a descargar

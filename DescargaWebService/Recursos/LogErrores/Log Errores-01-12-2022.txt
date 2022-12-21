@@ -1,0 +1,58 @@
+
+Ejecutando Descarga 11:14:20..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+No hay Paquetes pendientes de Descargar, RFC: DPA060116FH3
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Esto es una prueba
+
+Ejecutando Peticiones 17:01:15..........................................................................................................
+Archivo PFX del RFC: CAN830210LE8 NO ENCONTRADO
+Archivo PFX del RFC: FDV030109CS3 NO ENCONTRADO
+Archivo PFX del RFC: LDG0102073C5 NO ENCONTRADO
+Archivo PFX del RFC: MGA080922FP0 NO ENCONTRADO
+Archivo PFX del RFC: PUL860409I9A NO ENCONTRADO
+Archivo PFX del RFC: DCA040909263 NO ENCONTRADO
+DPA060116FH3: Iniciando Peticiones
+Peticiones del RFC DPA060116FH3 Terminadas
+Archivo PFX del RFC: DIM140806MM9 NO ENCONTRADO
+Archivo PFX del RFC: DIM150824B26 NO ENCONTRADO
+Archivo PFX del RFC: RAR930331RF0 NO ENCONTRADO
+Iniciando Timer para verificar los paquetes a descargar
+
+Ejecutando Peticiones 17:01:37..........................................................................................................
+Archivo PFX del RFC: CAN830210LE8 NO ENCONTRADO
+Archivo PFX del RFC: FDV030109CS3 NO ENCONTRADO
+Archivo PFX del RFC: LDG0102073C5 NO ENCONTRADO
+Archivo PFX del RFC: MGA080922FP0 NO ENCONTRADO
+Archivo PFX del RFC: PUL860409I9A NO ENCONTRADO
+Archivo PFX del RFC: DCA040909263 NO ENCONTRADO
+DPA060116FH3: Iniciando Peticiones
+No se realizaron las Peticiones del RFC: DPA060116FH3, porque ya Existen
+Archivo PFX del RFC: DIM140806MM9 NO ENCONTRADO
+Archivo PFX del RFC: DIM150824B26 NO ENCONTRADO
+Archivo PFX del RFC: RAR930331RF0 NO ENCONTRADO
+Iniciando Timer para verificar los paquetes a descargar
+
+Ejecutando Peticiones 17:04:23..........................................................................................................
+Archivo PFX del RFC: CAN830210LE8 NO ENCONTRADO
+Archivo PFX del RFC: FDV030109CS3 NO ENCONTRADO
+Archivo PFX del RFC: LDG0102073C5 NO ENCONTRADO
+Archivo PFX del RFC: MGA080922FP0 NO ENCONTRADO
+Archivo PFX del RFC: PUL860409I9A NO ENCONTRADO
+Archivo PFX del RFC: DCA040909263 NO ENCONTRADO
+DPA060116FH3: Iniciando Peticiones
+No se realizaron las Peticiones del RFC: DPA060116FH3, porque ya Existen
+Archivo PFX del RFC: DIM140806MM9 NO ENCONTRADO
+Archivo PFX del RFC: DIM150824B26 NO ENCONTRADO
+Archivo PFX del RFC: RAR930331RF0 NO ENCONTRADO
+Iniciando Timer para verificar los paquetes a descargar

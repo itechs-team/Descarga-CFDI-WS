@@ -1,0 +1,48 @@
+
+Ejecutando Descarga 17:01:40..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Paquete descargado, Se encuentra en la siguiente carpeta: C:\Users\itechs\AppData\Local\Apps\2.0\XWWV4L80.CY8\WVTXLX26.OQZ\desc..tion_0000000000000000_0001.0000_38bf2d960fa88194\Recursos\Peticiones Descargadas\
+Paquete descargado, Se encuentra en la siguiente carpeta: C:\Users\itechs\AppData\Local\Apps\2.0\XWWV4L80.CY8\WVTXLX26.OQZ\desc..tion_0000000000000000_0001.0000_38bf2d960fa88194\Recursos\Peticiones Descargadas\
+Paquete descargado, Se encuentra en la siguiente carpeta: C:\Users\itechs\AppData\Local\Apps\2.0\XWWV4L80.CY8\WVTXLX26.OQZ\desc..tion_0000000000000000_0001.0000_38bf2d960fa88194\Recursos\Peticiones Descargadas\
+Paquete descargado, Se encuentra en la siguiente carpeta: C:\Users\itechs\AppData\Local\Apps\2.0\XWWV4L80.CY8\WVTXLX26.OQZ\desc..tion_0000000000000000_0001.0000_38bf2d960fa88194\Recursos\Peticiones Descargadas\
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
+
+Ejecutando Peticiones 18:00:00..........................................................................................................
+Archivo PFX del RFC: CAN830210LE8 NO ENCONTRADO
+Archivo PFX del RFC: FDV030109CS3 NO ENCONTRADO
+Archivo PFX del RFC: LDG0102073C5 NO ENCONTRADO
+Archivo PFX del RFC: MGA080922FP0 NO ENCONTRADO
+Archivo PFX del RFC: PUL860409I9A NO ENCONTRADO
+Archivo PFX del RFC: DCA040909263 NO ENCONTRADO
+DPA060116FH3: Iniciando Peticiones
+Peticiones del RFC DPA060116FH3 Terminadas
+Archivo PFX del RFC: DIM140806MM9 NO ENCONTRADO
+Archivo PFX del RFC: DIM150824B26 NO ENCONTRADO
+Archivo PFX del RFC: RAR930331RF0 NO ENCONTRADO
+Iniciando Timer para verificar los paquetes a descargar
+
+Ejecutando Descarga 18:22:40..........................................................................................................
+CAN830210LE8 :Archivo XML de Peticiones NO ENCONTRADO
+FDV030109CS3 :Archivo XML de Peticiones NO ENCONTRADO
+LDG0102073C5 :Archivo XML de Peticiones NO ENCONTRADO
+MGA080922FP0 :Archivo XML de Peticiones NO ENCONTRADO
+PUL860409I9A :Archivo XML de Peticiones NO ENCONTRADO
+DCA040909263 :Archivo XML de Peticiones NO ENCONTRADO
+DPA060116FH3 :Intentando Descargar Paquetes
+Petición con ID: f797cef2-1f48-4c36-9344-6b166fc85791 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 1acf7616-b8b4-4611-aa20-f8600f03c5f9 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: 801c9c90-ac7a-4287-916d-d2c3d86101fb >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Petición con ID: db078581-cbe6-4107-8333-2ca4ecf7b083 >> Aún no esta lista en los servidores del SAT, Espere más tiempo
+Intento de Descarga del RFC: DPA060116FH3 >>FINALIZADO
+DIM140806MM9 :Archivo XML de Peticiones NO ENCONTRADO
+DIM150824B26 :Archivo XML de Peticiones NO ENCONTRADO
+RAR930331RF0 :Archivo XML de Peticiones NO ENCONTRADO
