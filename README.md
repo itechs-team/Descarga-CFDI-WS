@@ -24,17 +24,17 @@ Programa que realiza descarga de CFDIs del web service que proporciona el SAT.
 
 ### - Funcionamiento <a name="id2"></a>
 
--- El sistema realiza la descarga de CFDIs Emitidos. Los dias a descargar son 4, contando la fecha actual, el rango de descarga es predeterminada de las 00:00:00 horas a las 23:59:59. En el caso de ser exitoso las peticiones quedarian como se muestran a continuacion:
-Ejemplo:
+-- El sistema realiza la descarga de CFDIs Emitidos. Los dias a descargar son 4, contando la fecha actual, el rango de descarga es predeterminada de las 00:00:00 horas a las 23:59:59. En el caso de ser exitoso las peticiones quedarian como se muestran a continuacion:  
+Ejemplo:  
 * Peticion fechaHoy - fechaInicio=2022-12-20 horaInicio=00:00:00 fechaFin=2022-12-20 horaFin=23:59:59
 * Peticion fechaAyer - fechaInicio=2022-12-19 horaInicio=00:00:00 fechaFin=2022-12-19 horaFin=23:59:59
 * Peticion fechaAntier - fechaInicio=2022-12-18 horaInicio=00:00:00 fechaFin=2022-12-18 horaFin=23:59:59
 * Peticion fechaAnteAntier - fechaInicio=2022-12-17 horaInicio=00:00:00 fechaFin=2022-12-17 horaFin=23:59:59
 
---En el caso de que sea rechazada una peticion, la hora inicial puede variar, debido a que ya existen peticiones con la misma fecha, y el incremento es de 1 segundo por cantidad de registros de peticiones con las mismas fechas.
-Ejemplo:
-* Peticion fechaHoy - fechaInicio=2022-12-20 horaInicio=00:00:00 fechaFin=2022-12-20 horaFin=23:59:59
-Suponiendo que esta peticion haya sido rechazada, como ya existe 1 peticion con la misma fecha como registro, se va incrementar un segundo a la horaInicio y la nueva peticion de la misma fecha quedaria como se muestra a continuacion:
+--En el caso de que sea rechazada una peticion, al repetirse la peticion, la hora inicial puede variar, debido a que ya existen peticiones con la misma fecha, y el incremento es de 1 segundo por cantidad de registros de peticiones con las mismas fechas.  
+Ejemplo:  
+* Peticion fechaHoy - fechaInicio=2022-12-20 horaInicio=00:00:00 fechaFin=2022-12-20 horaFin=23:59:59  
+Suponiendo que esta peticion haya sido rechazada, como ya existe 1 peticion con la misma fecha como registro, se va incrementar un segundo a la horaInicio y la nueva peticion de la misma fecha quedaria como se muestra a continuacion:  
 * Peticion fechaHoy - fechaInicio=2022-12-20 horaInicio=00:00:01 fechaFin=2022-12-20 horaFin=23:59:59
 
 -- La descarga de CFDIs contempla 4 dias por lo siguiente:
