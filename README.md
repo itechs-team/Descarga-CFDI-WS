@@ -74,6 +74,8 @@ Ejemplo:
 Como podemos observar, la peticion anterior fue rechazada, al realizar las peticiones de nuevo, quedaria de la siguiente manera:
 <Peticion id="8139e0b5-f9d7-4604-9c70-aef8c3f1c11b" descargada="0" tipo="Recibidas" fechaInicial="2022-12-12" HoraInicial="00:00:01" fechaFinal="2022-12-12" HoraFinal="23:59:59" ClaveLote="20221214" estadoSolicitud="Solicitud Aceptada" />
 La nueva peticion queda con el mismo rango de fecha, sin embargo es diferente en la HoraInicial, ya que se le agrega 1 segundo, debido a que ya existe una peticion con el mismo rango, el incremento puede variar de acuerdo al numero de registros que existen, como ya se explico anteriormente.
+Al realizar una nueva peticion de la anterior que fue rechazada, se actualizara su estado a "Rechazado-1".Quedando de la siguiente manera:
+<Peticion id="2a860dfe-8b8c-4d25-8afa-a1f474a637f7" descargada="0" tipo="Recibidas" fechaInicial="2022-12-19" HoraInicial="00:00:01" fechaFinal="2022-12-19" HoraFinal="23:59:59" ClaveLote="20221222" estadoSolicitud="Rechazado-1" />
 
 -- El Log errores es almacenada diariamente en un archivo txt, se guardan automaticamente despues de imprimirse en el txtLogEr. El nombre del archivo comprende de Log Errores_dia-mes-año. Se almacenan en Recursos/LogErrores.
 
