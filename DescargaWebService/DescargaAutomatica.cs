@@ -276,16 +276,20 @@ namespace DescargaWebService
             int NFechas = 0;
             archivoPeticiones = archivoPeticiones + Rfc + ".xml";
             XmlDocument doc = new XmlDocument();
-            doc.Load(archivoPeticiones);
-
-            XmlNode peticiones = doc.DocumentElement;
-
-            foreach (XmlNode peticion in peticiones)
+            
+            // Validamos si existe el archivo XML peticiones
+            if (File.Exists(archivoPeticiones))
             {
-                string FechaIn = peticion.Attributes[3].Value;
-                if (FechaIn == Fecha)
+                doc.Load(archivoPeticiones);
+                XmlNode peticiones = doc.DocumentElement;
+
+                foreach (XmlNode peticion in peticiones)
                 {
-                    NFechas++;
+                    string FechaIn = peticion.Attributes[3].Value;
+                    if (FechaIn == Fecha)
+                    {
+                        NFechas++;
+                    }
                 }
             }
             return NFechas;
