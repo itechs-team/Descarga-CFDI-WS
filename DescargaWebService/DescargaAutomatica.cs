@@ -356,56 +356,65 @@ namespace DescargaWebService
             FechasPeticionesHoy.Add(FechaAyer);
             FechasPeticionesHoy.Add(FechaHoy);
 
-            //Fechas Recuperadas del Archivo XML
-            List<string> FechasPeticionesRealizadas = new List<string>();
-            var DatosXML = RecuperaXMLPeticiones(RutaArchivoXML, ClaveLote);
-            int numeroFechas = DatosXML.Count();
-
-            if (numeroFechas == 4)
+            //Validamos que exista un archivo de Peticiones
+            if (File.Exists(RutaArchivoXML))
             {
-                List<string> fechasRechazadas = new List<string>();
-                //Si ya fueron realizadas las peticiones, se debe revisar que no hayan peticiones rechazadas
-               
-                foreach (var peticion in DatosXML)
+                //Fechas Recuperadas del Archivo XML
+                List<string> FechasPeticionesRealizadas = new List<string>();
+                var DatosXML = RecuperaXMLPeticiones(RutaArchivoXML, ClaveLote);
+                int numeroFechas = DatosXML.Count();
+
+                if (numeroFechas == 4)
                 {
-                    string estado = peticion.Attribute("estadoSolicitud").Value;
-                    if (estado == "Rechazado")
+                    List<string> fechasRechazadas = new List<string>();
+                    //Si ya fueron realizadas las peticiones, se debe revisar que no hayan peticiones rechazadas
+
+                    foreach (var peticion in DatosXML)
                     {
-                        fechasRechazadas.Add(peticion.Attribute("fechaInicial").Value);
+                        string estado = peticion.Attribute("estadoSolicitud").Value;
+                        if (estado == "Rechazado")
+                        {
+                            fechasRechazadas.Add(peticion.Attribute("fechaInicial").Value);
+                        }
                     }
+                    datosPeticiones.FechaFaltantes = fechasRechazadas;
+                    if (fechasRechazadas.Count() != 0)
+                    {
+                        datosPeticiones.RealizarPeticion = true;
+                    }
+
                 }
-                datosPeticiones.FechaFaltantes = fechasRechazadas;
-                if (fechasRechazadas.Count() != 0)
+                else
                 {
+                    //Ya fueron realizadas las peticiones y ninguna peticion fue rechazada
+                    datosPeticiones.RealizarPeticion = false;
+                }
+
+                if (numeroFechas == 0)
+                {
+                    //Faltan por hacer todas las peticiones de todas las fechas del dia
                     datosPeticiones.RealizarPeticion = true;
                 }
-                
+
+                if (numeroFechas == 1 || numeroFechas == 2 || numeroFechas == 3)
+                {
+                    datosPeticiones.RealizarPeticion = true;
+                    foreach (var atributos in DatosXML)
+                    {
+                        string Fecha = atributos.Attribute("fechaInicial").Value;
+                        FechasPeticionesRealizadas.Add(Fecha);
+                    }
+                    int NumeroPeticionesRealizadas = FechasPeticionesRealizadas.Count();
+
+                    //Encontrar diferencia entre las 2 listas de Fechas
+                    datosPeticiones.FechaFaltantes = FechasPeticionesHoy.Except(FechasPeticionesRealizadas);
+                    datosPeticiones.NumeroPeticionesRealizadas = datosPeticiones.FechaFaltantes.Count();
+                }
             }
             else
             {
-                //Ya fueron realizadas las peticiones y ninguna peticion fue rechazada
-                datosPeticiones.RealizarPeticion = false;
-            }
-
-            if (numeroFechas == 0 )
-            {
-                //Faltan por hacer todas las peticiones de todas las fechas del dia
+                //No se encontro archivo XML de peticiones
                 datosPeticiones.RealizarPeticion = true;
-            }
-
-            if (numeroFechas == 1 || numeroFechas == 2 || numeroFechas == 3)
-            {
-                datosPeticiones.RealizarPeticion = true;
-                foreach (var atributos in DatosXML)
-                {
-                    string Fecha = atributos.Attribute("fechaInicial").Value;
-                    FechasPeticionesRealizadas.Add(Fecha);
-                }
-                int NumeroPeticionesRealizadas = FechasPeticionesRealizadas.Count();
-                
-                //Encontrar diferencia entre las 2 listas de Fechas
-                datosPeticiones.FechaFaltantes = FechasPeticionesHoy.Except(FechasPeticionesRealizadas);
-                datosPeticiones.NumeroPeticionesRealizadas = datosPeticiones.FechaFaltantes.Count();
             }
             return datosPeticiones;
         }
