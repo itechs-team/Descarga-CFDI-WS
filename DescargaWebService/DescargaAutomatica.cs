@@ -379,6 +379,8 @@ namespace DescargaWebService
                         if (estado == "Rechazado")
                         {
                             fechasRechazadas.Add(peticion.Attribute("fechaInicial").Value);
+                            string id = peticion.Attribute("id").Value;
+                            actualizarXMLPeticiones(id, "Rechazado-1", RutaArchivoXML);
                         }
                     }
                     datosPeticiones.FechaFaltantes = fechasRechazadas;

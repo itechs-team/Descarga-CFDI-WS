@@ -68,6 +68,13 @@ La nueva hora de ejecucion seria a las 18:31:00.
 
 -- btnDescarga (Boton Descarga Paquetes): Se habilita al finalizar el temporizador de 30 minutos controlado por el timer tmrDescargaPaquetes, se recorre el comboBox cboEmpresas, y se busca el archivo XML de peticiones correspondientes a cada RFC, se recorre el archivo XML y se busca aquellas peticiones que esten pendientes de descargar. Si la descarga es exitosa, el timer tmrDescargaPaquetes se deshabilita. En caso contrario se reprograma como se explico anteriormente.
 
+-- Para las peticiones que sean rechadazas, se pueden volver a descargar con el mismo rango de fecha inicial y fecha final. Siempre y cuando se realicen las peticiones el mismo dia.
+Ejemplo:
+<Peticion id="9dbb471d-50e0-4715-a904-98cfa2b99e70" descargada="0" tipo="Recibidas" fechaInicial="2022-12-12" HoraInicial="00:00:00" fechaFinal="2022-12-12" HoraFinal="23:59:59" ClaveLote="20221214" estadoSolicitud="Rechazado" />
+Como podemos observar, la peticion anterior fue rechazada, al realizar las peticiones de nuevo, quedaria de la siguiente manera:
+<Peticion id="8139e0b5-f9d7-4604-9c70-aef8c3f1c11b" descargada="0" tipo="Recibidas" fechaInicial="2022-12-12" HoraInicial="00:00:01" fechaFinal="2022-12-12" HoraFinal="23:59:59" ClaveLote="20221214" estadoSolicitud="Solicitud Aceptada" />
+La nueva peticion queda con el mismo rango de fecha, sin embargo es diferente en la HoraInicial, ya que se le agrega 1 segundo, debido a que ya existe una peticion con el mismo rango, el incremento puede variar de acuerdo al numero de registros que existen, como ya se explico anteriormente.
+
 -- El Log errores es almacenada diariamente en un archivo txt, se guardan automaticamente despues de imprimirse en el txtLogEr. El nombre del archivo comprende de Log Errores_dia-mes-año. Se almacenan en Recursos/LogErrores.
 
 -- Cuenta con un apartado para descarga de Metadata, se tiene que seleccionar el RFC del comboBox, se debe elegir el rango de fechas a consultar y se debe hacer uso de los botones que se muestran en esa seccion (Boton Crear Peticion Metadata y Boton Descarga Metadata).
