@@ -360,6 +360,8 @@ namespace DescargaWebService
             FechasPeticionesHoy.Add(FechaAyer);
             FechasPeticionesHoy.Add(FechaHoy);
 
+            Directory.CreateDirectory(Path.GetDirectoryName(RutaArchivoXML)); //Lo crea por si no existe
+
             //Validamos que exista un archivo de Peticiones
             if (File.Exists(RutaArchivoXML))
             {
