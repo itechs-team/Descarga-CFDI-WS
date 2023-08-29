@@ -398,5 +398,15 @@ namespace DescargaWebService
             }
             Descargador.GuardaLogErrores(txtLogEr.Text);
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVerPeticiones_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
