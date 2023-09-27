@@ -45,19 +45,31 @@ namespace DescargaWebService
             string ClaveLote = Regex.Replace(FechaActual, "[-]", string.Empty);
 
             //FechasPeticiones
-            string FechaHoy                     = ahora.AddDays(0).ToString("yyyy-MM-dd");
-            string FechaAyer                    = ahora.AddDays(-1).ToString("yyyy-MM-dd");
-            string FechaAntier                  = ahora.AddDays(-2).ToString("yyyy-MM-dd");
-            string FechaAnteAntier              = ahora.AddDays(-3).ToString("yyyy-MM-dd");
-            string FechaAntesdeAnteAntier       = ahora.AddDays(-4).ToString("yyyy-MM-dd");
-            string FechaAnteAntesdeAnteAntier   = ahora.AddDays(-5).ToString("yyyy-MM-dd");
+            string FechaHoy                      = ahora.AddDays(0).ToString("yyyy-MM-dd");
+            string FechaAyer                     = ahora.AddDays(-1).ToString("yyyy-MM-dd");
+            string FechaAntier                   = ahora.AddDays(-2).ToString("yyyy-MM-dd");
+            string FechaAnteAntier               = ahora.AddDays(-3).ToString("yyyy-MM-dd");
+            string FechaAntesdeAnteAntier        = ahora.AddDays(-4).ToString("yyyy-MM-dd");
+            string FechaAnteAntesdeAnteAntier    = ahora.AddDays(-5).ToString("yyyy-MM-dd");
+            string FechaAnteAnteAntesdeAnteAntier= ahora.AddDays(-6).ToString("yyyy-MM-dd");
+            string HaceUnaSemana                 = ahora.AddDays(-7).ToString("yyyy-MM-dd");
 
-            datosPeticiones = RevisaPeticionesRealizadas(FechaAnteAntesdeAnteAntier,FechaAntesdeAnteAntier, FechaAnteAntier, FechaAntier, FechaAyer, FechaHoy, RutaXML, ClaveLote);
+            datosPeticiones = RevisaPeticionesRealizadas(HaceUnaSemana, FechaAnteAnteAntesdeAnteAntier, FechaAnteAntesdeAnteAntier, FechaAntesdeAnteAntier, FechaAnteAntier, FechaAntier, FechaAyer, FechaHoy, RutaXML, ClaveLote);
 
             if (datosPeticiones.FechaFaltantes == null && datosPeticiones.RealizarPeticion == true)
             {
                 //Si FechasFaltantes es Null faltan todas las Peticiones del dia
                 //Fecha AnteAntier
+                int NHaceUnaSemana = NumIntentosDescarga(RFC, HaceUnaSemana);
+                HoraIn = AsignaHoraInicial(NHaceUnaSemana);
+                idSolicitud = SatWebService.crearPeticion(certificate, autorization, tipoFactura, HaceUnaSemana, HoraIn, HaceUnaSemana, HoraFn, RFC, tipoSolicitud);
+                guardarPeticiones(idSolicitud, "Recibidas", HaceUnaSemana, HoraIn, HaceUnaSemana, HoraFn, RFC, ClaveLote);
+                
+                int NFechaAnteAnteAntesdeAnteAntier = NumIntentosDescarga(RFC, FechaAnteAnteAntesdeAnteAntier);
+                HoraIn = AsignaHoraInicial(NFechaAnteAnteAntesdeAnteAntier);
+                idSolicitud = SatWebService.crearPeticion(certificate, autorization, tipoFactura, FechaAnteAnteAntesdeAnteAntier, HoraIn, FechaAnteAnteAntesdeAnteAntier, HoraFn, RFC, tipoSolicitud);
+                guardarPeticiones(idSolicitud, "Recibidas", FechaAnteAnteAntesdeAnteAntier, HoraIn, FechaAnteAnteAntesdeAnteAntier, HoraFn, RFC, ClaveLote);
+                
                 int NFechaAnteAntesdeAnteAntier = NumIntentosDescarga(RFC, FechaAnteAntesdeAnteAntier);
                 HoraIn = AsignaHoraInicial(NFechaAnteAntesdeAnteAntier);
                 idSolicitud = SatWebService.crearPeticion(certificate, autorization, tipoFactura, FechaAnteAntesdeAnteAntier, HoraIn, FechaAnteAntesdeAnteAntier, HoraFn, RFC, tipoSolicitud);
@@ -365,10 +377,12 @@ namespace DescargaWebService
             return Peticiones;
         }
 
-        public FechasPeticiones RevisaPeticionesRealizadas(string FechaAnteAntesdeAnteAntier,string FechaAntesdeAnteAntier, string FechaAnteAntier, string FechaAntier, string FechaAyer, string FechaHoy, string RutaArchivoXML, string ClaveLote)
+        public FechasPeticiones RevisaPeticionesRealizadas(string HaceUnaSemana, string FechaAnteAnteAntesdeAnteAntier ,string FechaAnteAntesdeAnteAntier,string FechaAntesdeAnteAntier, string FechaAnteAntier, string FechaAntier, string FechaAyer, string FechaHoy, string RutaArchivoXML, string ClaveLote)
         {
             //Fechas Peticiones Diarias
             List<String> FechasPeticionesHoy = new List<String>();
+            FechasPeticionesHoy.Add(HaceUnaSemana);
+            FechasPeticionesHoy.Add(FechaAnteAnteAntesdeAnteAntier);
             FechasPeticionesHoy.Add(FechaAnteAntesdeAnteAntier);
             FechasPeticionesHoy.Add(FechaAntesdeAnteAntier);
             FechasPeticionesHoy.Add(FechaAnteAntier);
@@ -384,7 +398,7 @@ namespace DescargaWebService
                 var DatosXML = RecuperaXMLPeticiones(RutaArchivoXML, ClaveLote);
                 int numeroFechas = DatosXML.Count();
 
-                if (numeroFechas == 6 || numeroFechas == 5)
+                if (numeroFechas == 7 || numeroFechas == 8)
                 {
                     List<string> fechasRechazadas = new List<string>();
                     //Si ya fueron realizadas las peticiones, se debe revisar que no hayan peticiones rechazadas
@@ -418,7 +432,7 @@ namespace DescargaWebService
                     datosPeticiones.RealizarPeticion = true;
                 }
 
-                if (numeroFechas == 1 || numeroFechas == 2 || numeroFechas == 3 || numeroFechas == 4 || numeroFechas == 5)
+                if (numeroFechas == 1 || numeroFechas == 2 || numeroFechas == 3 || numeroFechas == 4 || numeroFechas == 5 || numeroFechas == 6 || numeroFechas == 7)
                 {
                     datosPeticiones.RealizarPeticion = true;
                     foreach (var atributos in DatosXML)
